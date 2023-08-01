@@ -1,0 +1,101 @@
+.footer{
+    width: 1024px;
+    height: 600px;
+    /* border: 1px solid red; */
+   margin:4rem auto;
+   position: relative;
+   box-shadow: 0 0 10px grey;
+   border-radius: 30px 0px 0px 30px;
+}
+.footerFrom{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footerFromLeft{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.footerLeftMain{
+    width: 500px;
+}
+.footerLeftMain h1{
+    font-size: 40px;
+}
+.footerLeftMain p{
+    width: 300px;
+    font-size: 20px;
+}
+.footerLeftMain form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.footerLeftMain form input{
+    height: 30px;
+    margin: 5px 0;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.footerLeftMain form label{
+    margin-top: 1rem;
+}
+.footerLeftMain form textarea{
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    width: 300px;
+    height: 100px;
+}
+
+.footerFormRight{
+    flex:1;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 2rem;
+    padding:0 3rem;
+    background-color: #051C45;
+    color: white;
+   height: 300px;
+   border-radius: 30px 0px 0px 30px;
+}
+.footerFormRight h1{
+    font-size: 25px;
+}
+.iconDiv{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+}
+.footerIcons{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+   gap: 1rem;
+   padding-bottom: 2rem;
+   font-size: larger;
+   color: white;
+   background-color: #1484cd;
+   width: 200px;
+   height: 570px;
+}
+.footerIcons .icon{
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   font-size: 20px;
+    bottom: 20px;
+}

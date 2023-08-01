@@ -1,0 +1,90 @@
+.ratings{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 800px;
+    height: 400px;
+    margin: 2rem auto;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 10px 5px lightgray;
+    border-radius: 30px;
+    position: relative;
+}
+.ratings .left{
+    flex:1;
+    padding:1rem 3rem;
+ 
+}
+
+.leftHeading{
+    margin-bottom: 1rem;
+}
+.firstName{
+    position: relative;
+}
+.firstName:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    bottom:-5px;
+    left: 0;
+    height: 2px;
+    background-color: #051c45;
+}
+.divleftDes{
+    position: relative;
+}
+.detailedText{
+    text-align: left;
+    font-size: 20px;
+}
+.commaLeft{
+    margin-top: 40px;
+}
+.commaright{
+    position: absolute;
+    bottom: -5px;
+    right:100px;
+    
+}
+
+.ratings .right{
+    flex:1
+}
+.RatingIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 200px;
+   font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    /* background-color: aqua; */
+}
+.RatingIcons i{
+    cursor: pointer;
+}
+.ratingPageCount{
+
+    margin: 0 2rem;;
+}
+.rightBlankSpan{
+    position: relative;
+    width: 230px;
+    height: 300px;
+    background-color: #051c45;
+    border-radius: 30px;
+    transform: rotate(160deg);
+}
+.rightBlankSpan img{
+    position: absolute;
+    transform: rotate(200deg);
+    top: 0;
+    width: 230px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid grey;
+}
